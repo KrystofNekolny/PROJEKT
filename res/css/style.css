@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+    background-color: transparent;
+    background-color: black;
+}
+
+#canvas{
+    border: 10px solid black;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: transparent ;
+    width: 2000px;
+    height: 2100px;
+    
+
+}
+#canvas2{
+border-radius: 1%;
+ background-image: url("/../../res/img/1908-Milovice-a-kamenný-tábor.png");
+ background-size: cover;
+ background-repeat:round;
+  width: 100%; height: 2500px;
+  position:unset;
+  margin-top: 0;
+}
+
+
+img{height: 400px; width: 400px;
+position: sticky; top: 22.3%; left: 28.9%;
+object-fit: contain };
